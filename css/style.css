@@ -37,6 +37,12 @@ h1 {
   font-size: 2em;
 }
 
+hr {
+width:100%;
+text-align:left;
+margin-left:0;
+}
+
 /*
  * Header and hero Styles
 */
@@ -84,8 +90,7 @@ header.logo {
 
 .info .owner-details img {
   border-radius: 50%;
-  max-height: 100px;
-  max-width: 150px;
+  max-width: 85px;
 }
 
 .info h2.relationship, .info h2.name {
@@ -106,6 +111,7 @@ h1 {
 
 p.location {
   line-height: 15px;
+  font-size: 1.05em;
 }
 
 .info .icon {
@@ -122,15 +128,18 @@ p.location {
   padding: 25px;
 }
 
-}
+
 /*
  * About Section Styles
 */
 
+
+
 .about {
     background: #FFFF;
-    padding: 25px;
-    font-size: 1.2em;
+    font-size: 1.05em;
+    margin: 60px;
+    
   }
 
 .about .summary {
@@ -140,15 +149,23 @@ p.location {
 }
 
 .about .summary h2 {
-  text-weight: bold;
+  font-weight: bold;
   line-height: 50px;
   text-align: center;
+
 }
 
 .about .contact a {
   padding: 25px;
   margin-bottom: 50px;
   text-align: center;
+}
+
+.about .contact img {
+  width: 2%;
+
+  
+
 }
 
 .about .care p {
@@ -166,13 +183,18 @@ p.location {
 
 .about .games p {
   padding: 25px;
+  line-height: 20px;
   float: left;
+
 }
+
 .about .games-details ul{
   list-style-type: none;
-  line-height: 30px; 
-  padding-top: 50px;
+  padding: 25px;
+  line-height: 30px;
+
 }
+
 
 /*
  * Gallery Section Styles
@@ -184,8 +206,8 @@ p.location {
 }
 .gallery .photo img {
   float: left;
-  max-width: 400px;
-  max-height: 500px;
+  width: 450px;
+  height: 350px;
   padding: 25px;
 }
 
